@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/park_map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/map45"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/park_list"
+        android:icon="@drawable/ic_baseline_nature_people_24"
+        android:title="@string/park_list45"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/reservation_LIST"
+        android:icon="@drawable/ic_baseline_shopping_bag_24"
+        android:title="@string/reservation_list"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profile_section"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/user_profile"
+        app:showAsAction="always" />
+</menu>

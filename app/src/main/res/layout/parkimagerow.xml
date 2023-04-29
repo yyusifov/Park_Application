@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PageID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="#D1CFCF"
+    app:cardCornerRadius="10dp">
+
+    <ImageView
+        android:id="@+id/parkImagePageId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DDDADA"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="59dp"
+        tools:srcCompat="@tools:sample/avatars" />
+</androidx.cardview.widget.CardView>
